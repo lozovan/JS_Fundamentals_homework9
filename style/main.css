@@ -68,7 +68,6 @@ a.btn {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 20px;
 }
 
 .checkbox-label {
@@ -76,5 +75,6 @@ a.btn {
   align-items: center;
   gap: 5px;
   font-family: Arial, sans-serif;
+  font-size: 18px;
 }
 
