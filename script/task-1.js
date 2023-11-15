@@ -5,7 +5,9 @@
 і поставте їм розмір шрифту 35px (не вносьте змін до html-файлу)
  */
 
-$(document).ready(function () {
-  $("h2.head").css("background-color", "green");
-  $("h2.head .inner").css("font-size", "35px");
+$(document).ready(function(){
+  let headElements = $('h2.head');
+  headElements.css("background-color", "green");
+  headElements.find(".inner").css("font-size", "35px;");
+
 });
