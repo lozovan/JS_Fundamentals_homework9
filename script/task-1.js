@@ -8,6 +8,6 @@
 $(document).ready(function(){
   let headElements = $('h2.head');
   headElements.css("background-color", "green");
-  headElements.find(".inner").css("font-size", "35px;");
+  headElements.find(".inner").css("font-size", "35px");
 
 });
